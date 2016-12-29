@@ -1,2 +1,3 @@
 olá git!
 Dev1 say: Ok...its easy!
+Dev2 say: All right...it's a very good tool.
