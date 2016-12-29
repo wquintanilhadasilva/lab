@@ -1,1 +1,3 @@
 olá git!
+
+public function xpto(){}
