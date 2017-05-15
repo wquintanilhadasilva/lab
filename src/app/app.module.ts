@@ -1,20 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { MaterializeModule, MaterializeAction } from 'angular2-materialize';
+
 import { AppComponent } from './app.component';
+
+import {ViewBootstrapComponent} from './view-bootstrap/view-bootstrap.component';
+import { ViewMaterializeComponent } from './view-materialize/view-materialize.component';
+import { ViewLodashComponent } from './view-lodash/view-lodash.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ViewBootstrapComponent,
+    ViewMaterializeComponent,
+    ViewLodashComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MaterializeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
