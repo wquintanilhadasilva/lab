@@ -10,13 +10,16 @@ import { AppComponent } from './app.component';
 import {ViewBootstrapComponent} from './view-bootstrap/view-bootstrap.component';
 import { ViewMaterializeComponent } from './view-materialize/view-materialize.component';
 import { ViewLodashComponent } from './view-lodash/view-lodash.component';
+import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewBootstrapComponent,
     ViewMaterializeComponent,
-    ViewLodashComponent
+    ViewLodashComponent,
+    DiretivaNgifComponent
   ],
   imports: [
     BrowserModule,

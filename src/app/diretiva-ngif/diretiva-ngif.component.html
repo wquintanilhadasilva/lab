@@ -1,0 +1,15 @@
+<h5>*ngif</h5>
+
+<div *ngIf="cursos.length > 0; else loading">
+  Lista de cursos aqui.
+</div>
+
+<ng-template #loading>Não existem cursos para serem listados.</ng-template>
+
+<button (click)="exibirrCursos()">Exibir Cursos</button>
+
+<h5>Hidden como alternativa</h5>
+
+<div [hidden]="mostrarCursos">
+  Lista de cursos aqui.
+</div>
