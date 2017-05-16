@@ -1,0 +1,16 @@
+<h5>Teste barrudo</h5>
+
+<md-sidenav-container class="example-container">
+  <md-sidenav #sidenav class="example-sidenav">
+    Muito bem! 
+    <br/>
+    <button (click)="alert();" class="btn btn-default">Pressione</button>
+  </md-sidenav>
+
+  <div class="example-sidenav-content">
+    <button md-button (click)="sidenav.open()">
+      Abrir Menu
+    </button>
+  </div>
+
+</md-sidenav-container>
