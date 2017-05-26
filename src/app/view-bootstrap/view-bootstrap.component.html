@@ -1,4 +1,18 @@
-<h3>Componentes Bootstrap</h3>
-<button class="btn btn-primary" (click)="bootstrap()">Test Button</button>
-<br/>
-<span>{{msgBootstrap}}</span>
+<div class="panel">
+
+    <div class="panel-default">
+        <h3>Componentes Bootstrap</h3>
+        <button class="btn btn-primary" (click)="bootstrap()">Test Button</button>
+        <p></p>
+        <p>Valor enviado pelo pai: {{msgBootstrap}}</p>
+        <p>Conteúdo enviado pelo componente pai: {{stsNome}}</p>
+    </div>
+    <span>__________________________________________</span>
+    <p></p>
+    <!-- Faz o transclude aqui -->
+    <ng-content>
+    </ng-content>   
+</div>
+
+
+   

@@ -16,6 +16,7 @@ import { ViewMaterializeComponent } from './view-materialize/view-materialize.co
 import { ViewLodashComponent } from './view-lodash/view-lodash.component';
 import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
+import { DiretivaNgClassComponent } from './diretiva-ng-class/diretiva-ng-class.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch
     ViewLodashComponent,
     DiretivaNgifComponent,
     MaterialDesignComponent,
-    DiretivaNgswitchComponent
+    DiretivaNgswitchComponent,
+    DiretivaNgClassComponent
   ],
   imports: [
     BrowserModule,
